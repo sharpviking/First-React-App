@@ -3,11 +3,12 @@ import "./App.css";
 import Greeter from "./Greeter";
 import Die from "./Die";
 import ListPicker from "./ListPicker";
+import DoubleDice from "./DoubleDice";
 
 function App() {
   return (
     <div>
-      <Greeter />
+      {/* <Greeter />
       <Greeter person="Batman" from="Doga!" />
       <Greeter person="Kalia" from="Dhruv!" />
       <Die numSides={20} />
@@ -15,8 +16,10 @@ function App() {
       <Die numSides={26} />
       <ListPicker values={[1, 2, 3]} />
       <ListPicker values={[26, 11, 91]} />
-      <ListPicker values={["a", "b", "c"]} />
-      {/* <ListPicker values={{ d: 13, m: 17, w: 19 }} /> */}
+      <ListPicker values={["a", "b", "c"]} /> */}
+      <DoubleDice />
+      <DoubleDice />
+      <DoubleDice />
     </div>
   );
 }
