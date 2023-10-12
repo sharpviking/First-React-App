@@ -3,8 +3,10 @@ export default function DoubleDice() {
   const num2 = Math.floor(Math.random() * 3) + 1;
   const result = num1 === num2 ? "You Won!" : "You Lost :(";
 
+  const styles = { color: num1 === num2 ? "#06d6a0" : "red" };
+
   return (
-    <div>
+    <div className="DoubleDice" style={styles}>
       <h2>{result}</h2>
       <p>Num1: {num1}</p>
       <p>Num2: {num2}</p>
