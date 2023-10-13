@@ -5,10 +5,13 @@ import Die from "./Die";
 import ListPicker from "./ListPicker";
 import DoubleDice from "./DoubleDice";
 import Heading from "./Heading";
+import ColorList from "./ColorList";
 
 function App() {
   return (
     <div>
+      <ColorList colors={["red", "yellow", "teal", "purple"]} />
+      <ColorList colors={["olive", "orangered", "slategrey", "purple"]} />
       <Heading color="red" text="Welcome!" fontSize="21px" />
       <Heading color="teal" text="Happy world!" fontSize="23px" />
       <Greeter />
