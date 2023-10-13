@@ -6,11 +6,14 @@ import ListPicker from "./ListPicker";
 import DoubleDice from "./DoubleDice";
 import Heading from "./Heading";
 import ColorList from "./ColorList";
+import Slots from "./Slots";
 
 function App() {
   return (
     <div>
-      <ColorList colors={["red", "yellow", "teal", "purple"]} />
+      <Slots val1="🍍" val2="🍍" val3="🍍" />
+      <Slots val1="🍍" val2="🌶️" val3="🍍" />
+      {/* <ColorList colors={["red", "yellow", "teal", "purple"]} />
       <ColorList colors={["olive", "orangered", "slategrey", "purple"]} />
       <Heading color="red" text="Welcome!" fontSize="21px" />
       <Heading color="teal" text="Happy world!" fontSize="23px" />
@@ -25,7 +28,7 @@ function App() {
       <ListPicker values={["a", "b", "c"]} />
       <DoubleDice />
       <DoubleDice />
-      <DoubleDice />
+      <DoubleDice /> */}
     </div>
   );
 }
