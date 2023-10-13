@@ -10,10 +10,10 @@ import Slots from "./Slots";
 import ShoppingList from "./ShoppingList";
 
 const data = [
-  { item: "eggs", quantity: 7, completed: false },
-  { item: "milk", quantity: 1, completed: true },
-  { item: "almonds", quantity: 2, completed: true },
-  { item: "dates", quantity: 9, completed: false },
+  { id: 1, item: "eggs", quantity: 7, completed: false },
+  { id: 2, item: "milk", quantity: 1, completed: true },
+  { id: 3, item: "almonds", quantity: 2, completed: true },
+  { id: 4, item: "dates", quantity: 9, completed: false },
 ];
 
 function App() {
