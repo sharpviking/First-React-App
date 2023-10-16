@@ -10,10 +10,10 @@ function ShoppingListItem({ item, quantity, completed }) {
   );
 }
 
-ShoppingListItem.PropTypes = {
-  item: PropTypes.string,
-  quantity: PropTypes.number,
-  completed: PropTypes.bool,
-};
+// ShoppingListItem.PropTypes = {
+//   item: PropTypes.string,
+//   quantity: PropTypes.number,
+//   completed: PropTypes.bool,
+// };
 
 export default ShoppingListItem;
