@@ -1,10 +1,14 @@
 function handleClick() {
   console.log("Clicked the button!");
 }
+
+function handleHover() {
+  console.log("Hovered over Me!!!");
+}
 export default function Clicker() {
   return (
     <div>
-      <p>Click the button</p>
+      <p onMouseOver={handleHover}>Hover over Me</p>
       <button onClick={handleClick}>Click</button>
     </div>
   );
