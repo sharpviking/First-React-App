@@ -1,12 +1,13 @@
-export default function Counter({ num }) {
-  const increamentNum = () => {
-    num += 1;
-    console.log(num);
-  };
+import { useState } from "react";
+export default function Counter() {
+  const [num, setNum] = useState(0);
+  function changeNum() {
+    setNum(num + 1);
+  }
   return (
     <div>
       <p>The count is:{num}</p>
-      <button onClick={increamentNum}>increment</button>
+      <button onClick={changeNum}>increment</button>
     </div>
   );
 }

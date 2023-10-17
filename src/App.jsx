@@ -33,7 +33,7 @@ import Counter from "./Couter,";
 function App() {
   return (
     <div>
-      <Counter num={1} />
+      <Counter />
       {/* <Clickers message="Hi" buttonText="Please click Me" />
       <Clickers
         message="Dont click me"
