@@ -12,6 +12,7 @@ import PropertyList from "./PropertyList";
 import Clicker from "./Clicker";
 import Form from "./Form";
 import Clickers from "./Clickers";
+import Counter from "./Couter,";
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 7, completed: false },
@@ -32,11 +33,12 @@ import Clickers from "./Clickers";
 function App() {
   return (
     <div>
-      <Clickers message="Hi" buttonText="Please click Me" />
+      <Counter num={1} />
+      {/* <Clickers message="Hi" buttonText="Please click Me" />
       <Clickers
         message="Dont click me"
         buttonText="Dare to click me, I will wipe you out from the face of the earth"
-      />
+      /> */}
       {/* <Form />
       <Clicker /> */}
       {/* <PropertyList properties={properties} /> */}
