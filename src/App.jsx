@@ -15,7 +15,8 @@ import Clickers from "./Clickers";
 import Counter from "./Couter,";
 import Toggler from "./Toggler";
 import TogglerCounter from "./ToggleCounter";
-
+import ColorBox from "./ColorBox";
+import ColorBoxGrid from "./ColorBoxGrid";
 // const data = [
 //   { id: 1, item: "eggs", quantity: 7, completed: false },
 //   { id: 2, item: "milk", quantity: 1, completed: true },
@@ -32,11 +33,30 @@ import TogglerCounter from "./ToggleCounter";
 //   { id: 129035, name: "Gold Miner Campground", rating: 4.69, price: 96 },
 // ];
 
+const colors = [
+  "#bc6c25",
+  "#f72585",
+  "#ff006e",
+  "#184e77",
+  "#fb5607",
+  "#ffc300",
+  "#ffc2d1",
+  "#a7c957",
+  "#82c0cc",
+  "#eb5e28",
+  "#90e0ef",
+  "#333d29",
+  "#fca311",
+  "#0077b6",
+];
+
 function App() {
   return (
     <div>
+      {/* <ColorBox colors={colors} /> */}
+      <ColorBoxGrid colors={colors} />
       {/* <Toggler /> */}
-      <TogglerCounter />
+      {/* <TogglerCounter /> */}
       {/* <Counter /> */}
       {/* <Clickers message="Hi" buttonText="Please click Me" />
       <Clickers
